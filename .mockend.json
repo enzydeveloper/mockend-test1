@@ -3,6 +3,19 @@
     "title": { "string": {} },
     "comments": {
       "hasMany": "Comment"
+    },
+    "views": {
+      "int": {
+        "min": 0,
+        "max": 99
+      }
+    },
+    "published": {
+      "boolean": {}
+    },
+    "createdAt: {
+      "min": "2010-01-01T00:00:00Z",
+      "max": "2020-12-31T23:59:59Z"
     }
   },
   "Comment": {
